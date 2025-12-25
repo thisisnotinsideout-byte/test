@@ -1,10 +1,12 @@
 export default function Home() {
   return (
     <main className="min-h-screen p-8">
-    <div style={{ padding: '16px', backgroundColor: '#f3f4f6', borderRadius: '8px', minHeight: '100px', width: '400px', position: 'absolute', left: '132px', top: '289px' }}>
-      {/* Container */}
-    </div>
-    <button style={{ backgroundColor: '#3b82f6', color: '#ffffff', padding: '12px 24px', borderRadius: '8px', fontSize: '16px', fontWeight: '600', position: 'absolute', left: '265px', top: '140px' }}>
+    <input
+      type="text"
+      placeholder="Enter text..."
+     style={{ width: '300px', padding: '8px 12px', fontSize: '16px', borderRadius: '4px', position: 'absolute', left: '50px', top: '125.2951600331134px' }}
+    />
+    <button style={{ backgroundColor: '#2b3950', color: '#ffffff', padding: '12px 24px', borderRadius: '8px', fontSize: '16px', fontWeight: '600', position: 'absolute', left: '143px', top: '36px' }}>
       Click me
     </button>
     </main>
